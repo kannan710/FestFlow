@@ -1,0 +1,27 @@
+
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #111B34;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3B4A6B;
+    border-radius: 999px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #506080;
+  }
+@theme {
+    --color-bg-primary: #111B34;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0.0, 0.175);
+}
